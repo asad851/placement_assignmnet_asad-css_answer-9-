@@ -1,0 +1,81 @@
+.grpPeriod {
+  width: 70px;
+  /* margin-top: 50px; */
+  position:absolute;
+  top:25px;
+  left:25px;
+}
+.numberCol {
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  top:75px;
+
+  gap:3px;
+  
+  
+}
+.Box {
+  height: 60px;
+  width: 60px;
+  
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.periodictable {
+  display: flex;
+  gap: 4px;
+  margin-top: 50px;
+  
+}
+.Col {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  
+}
+.first {
+  margin-top: 25px;
+  margin-left:70px;
+}
+.elemBox {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(248, 87, 87);
+  text-align: center;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding:8px;
+}
+
+.elemBox>p{
+    margin:0
+}
+.elem {
+  
+  font-size: 20px;
+}
+.second {
+  margin-top: 88px;
+}
+.Blue{
+ margin-top:215px;
+
+}
+.third{
+    margin-left: 8px;
+}
+.Blue>.elemBox {
+    background-color:rgb(122, 178, 252);
+}
+.radioactive{
+    margin-top:8px;
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+.radioactive>.elemBox{
+    background-color: rgb(116, 247, 123);
+}
