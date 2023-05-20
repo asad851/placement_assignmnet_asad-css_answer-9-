@@ -1,3 +1,7 @@
+body{
+    margin:0;
+    padding:0;
+}
 .grpPeriod {
   width: 70px;
   /* margin-top: 50px; */
@@ -24,10 +28,24 @@
   justify-content: center;
   align-items: center;
 }
+.numberRow{
+    display: flex;
+    position: absolute;
+    top:-25px;
+    left:72px;
+    gap:4px;
+}
+.three{
+    margin-left: 8px;
+    
+}
 .periodictable {
   display: flex;
   gap: 4px;
   margin-top: 50px;
+  max-width: 1366px;
+  width: 100%;
+  position: relative;
   
 }
 .Col {
@@ -58,7 +76,7 @@
   font-size: 20px;
 }
 .second {
-  margin-top: 88px;
+  margin-top: 89px;
 }
 .Blue{
  margin-top:215px;
@@ -78,4 +96,41 @@
 }
 .radioactive>.elemBox{
     background-color: rgb(116, 247, 123);
+}
+.Yellow > .elemBox{
+    background-color: rgb(245, 245, 123);
+}
+
+.absolute{
+    position:absolute;
+    
+}
+.twelve{
+    right:460px;
+}
+.thirteen{
+    right:460px;
+}
+.fourteen{
+    right:-64px
+}
+.fifteen{
+    right:-64px;
+}
+.sixteen{
+    right:-64px;
+}
+.seventeen{
+    right:-64px
+}
+#seventeenth{
+ right:-128px
+}
+#eighteenth{
+    right:-192px;
+    top:-63px;
+   
+}
+ .Yellow>.red{
+    background-color: rgb(248, 87, 87);
 }
